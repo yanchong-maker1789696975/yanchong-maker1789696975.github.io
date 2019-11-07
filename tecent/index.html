@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html><head>
+		<meta charset="utf-8">
+		<title>腾讯首页</title>
+		<style>
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			.a1 {
+				width: 1400px;
+				height: 75px;
+				background: white;
+				margin: 0 auto;
+				margin-bottom: 30px;
+			}
+			
+			a:link {
+				color: black;
+				text-decoration: none;
+			}
+			
+			a:visited {
+				color: blue;
+			}
+			
+			a:hover {
+				color: blue;
+			}
+			
+			.h1 {
+				list-style: none;
+				width: 1400px;
+				background-color: cornflowerblue;
+				overflow: hidden;
+				margin: 0 auto;
+				margin-bottom: 20px;
+			}
+			
+			.h1 li {
+				float: left;
+				width: 82px;
+			}
+			
+			.h1 li a {
+				color: white;
+				line-height: 55px;
+				text-decoration: none;
+				display: block;
+				width: 82px;
+				text-align: center;
+				font-weight: bold;
+			}
+			
+			.h1 li a:hover {
+				background-color: lightblue;
+			}
+			
+			.a3 {
+				width: 1400px;
+				height: 85px;
+				background: white;
+				margin: 0 auto;
+				margin-bottom: 30px;
+			}
+			
+			.a4 {
+				width: 1400px;
+				height: 1000px;
+				background: white;
+				margin: 0 auto;
+			}
+			
+			.b1 {
+				width: 450px;
+				height: 1000px;
+				background: white;
+				margin: 0 auto;
+				float: left;
+			}
+			
+			.b2 {
+				width: 450px;
+				height: 1000px;
+				background: white;
+				margin: 0 auto;
+				float: right;
+			}
+			
+			.b3 {
+				width: 450px;
+				height: 1000px;
+				background: white;
+				margin: 0 auto;
+				float: initial;
+			}
+			
+			.c1 {
+				width: 450px;
+				height: 350px;
+				background: white;
+			}
+			
+			.c2 {
+				width: 450px;
+				height: 200px;
+				background: white;
+			}
+			
+			.c3 {
+				width: 450px;
+				height: 350px;
+				background: red;
+			}
+			
+			.d1 {
+				width: 450px;
+				height: 350px;
+				background: white;
+			}
+			
+			.d2 {
+				width: 450px;
+				height: 300px;
+				background: purple;
+			}
+			
+			.d3 {
+				width: 450px;
+				height: 350px;
+				background: red;
+			}
+			
+			.e1 {
+				width: 450px;
+				height: 350px;
+				background: white;
+			}
+			
+			.e2 {
+				width: 450px;
+				height: 400px;
+				background: white;
+			}
+			
+			.e3 {
+				width: 450px;
+				height: 350px;
+				background: red;
+			}
+			
+			.f1 {
+				width: 300px;
+				height: 75px;
+				background: beige;
+				margin: 0 auto;
+				float: left;
+			}
+			
+			.f2 {
+				width: 200px;
+				height: 75px;
+				background: blue;
+				margin: 0 auto;
+				float: right;
+			}
+			
+			.f3 {
+				width: 700px;
+				height: 75px;
+				background: white;
+				float: right;
+				margin-right: 100px;
+			}
+			
+			.g1 {
+				width: 800px;
+				height: 85px;
+				background: white;
+				float: left;
+			}
+			
+			.g2 {
+				width: 500px;
+				height: 85px;
+				background: white;
+				float: right;
+			}
+			
+			.i1 {
+				width: 450px;
+				height: 70px;
+				background: white;
+			}
+			
+			a:visited {
+				color: black;
+			}
+			
+			.i2 {
+				width: 450px;
+				height: 25px;
+				background: white;
+			}
+			
+			.j1 {
+				width: 200px;
+				height: 200px;
+				float: right;
+				background: white;
+			}
+		</style>
+	</head>
+
+	<body onload="init()">
+		<div class="a1">
+			<div class="f1"><img src="https://img04.sogoucdn.com/net/a/04/link?url=https%3A%2F%2Fi02piccdn.sogoucdn.com%2Fdd801a6e62cd250e&appid=122" width="300px" height="75px"></div>
+			<div class="f2"><img src="https://i04piccdn.sogoucdn.com/1098b8663d2de4ad" width="200px" height="75px"></div>
+			<div class="f3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input align="center" type="text"><button class="searchBtn" id="searchBtn" type="submit" style="color: blue;">搜狗搜索</button></div>
+
+		</div>
+		<ul class="h1">
+			<li>
+				<a href="">新闻</a>
+			</li>
+			<li>
+				<a href="">视频</a>
+			</li>
+			<li>
+				<a href="">图片</a>
+			</li>
+			<li>
+				<a href="">军事</a>
+			</li>
+			<li>
+				<a href="">体育</a>
+			</li>
+			<li>
+				<a href="">NBA</a>
+			</li>
+			<li>
+				<a href="">娱乐</a>
+			</li>
+			<li>
+				<a href="">财经</a>
+			</li>
+			<li>
+				<a href="">科技</a>
+			</li>
+			<li>
+				<a href="">时尚</a>
+			</li>
+			<li>
+				<a href="">汽车</a>
+			</li>
+			<li>
+				<a href="">房产</a>
+			</li>
+			<li>
+				<a href="">教育</a>
+			</li>
+			<li>
+				<a href="">文化</a>
+			</li>
+			<li>
+				<a href="">游戏</a>
+			</li>
+			<li>
+				<a href="">星座</a>
+			</li>
+			<li>
+				<a href="">更多</a>
+		</li></ul>
+		<div class="a3">
+			<div class="g1"><img src="https://i02piccdn.sogoucdn.com/32e51ccb8e57f223" width="800px" height="85px">
+			</div>
+			<div class="g2"><img id="lunbotu" src="https://i01piccdn.sogoucdn.com/0e35fc022cb1933b" width="500px" height="85px"></div>
+		</div>
+		<div class="a4">
+			<div class="b1">
+				<div class="c1">
+					<div class="i2"><img src="img/第六次作业7.png" width="100pxpx" height="25px" align="right">
+						<p style="font-size: 20px;">
+							<font color="#6495ED">要闻|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;湖南新闻</font>
+						</p>
+					</div>
+					<strong style="font-size: 18px;"><a href="https://hn.qq.com/a/20191103/002023.htm">湖南36万人“考老师” 考生总人数居全国第五</a></strong>
+
+					<br>
+					<br>
+					<a href="" style="font-size: 18px;">长沙入选全国营商环境十佳城市 </a>
+					<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<br>
+					<a href="" style="font-size: 18px;">未来一周湖南累计雨量偏少 昼夜温差较大</a>
+					<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<br>
+					<a href="" style="font-size: 18px;">厉害了！28岁长沙妹子任中南大学特聘教授</a>
+					<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<br>
+					<a href="" style="font-size: 18px;">人民网：湖南营商沃土培硕果 湖湘大地聚新力！</a>
+					<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<br>
+					<a href="" style="font-size: 18px;">脱贫之后如何不返贫？听十八洞村村民龙金彪怎么说</a>
+					<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<br>
+					<a href="" style="font-size: 18px;">湖南首个高速公路省界收费站拆除工作启动</a>
+					<br>
+				</div>
+				<div class="c2"><img src="https://img04.sogoucdn.com/v2/thumb/crop/xy/ai/x/0/y/0/w/120/h/90/iw/90/ih/67.5/t/0/ir/3?t=2&appid=200997&url=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20191103%2Fe749795d91c44084bf5563ce251ebe8f.jpeg&sign=c28db0865cb2c2e27d2f0d53a61fd92f" width="450px" height="150px"></div>
+
+			</div>
+			<div class="b2">
+				<!--这是第三个盒子-->
+				<div class="d1">
+					<hr>
+					<p style="font-size: 16px;">新闻APP&nbsp;&nbsp;&nbsp;&nbsp;体育APP&nbsp;&nbsp;&nbsp;&nbsp;企鹅号&nbsp;&nbsp;&nbsp;&nbsp;快报 &nbsp;&nbsp;&nbsp;&nbsp;视频&nbsp;&nbsp;&nbsp;&nbsp;浏览器&nbsp;&nbsp;&nbsp;&nbsp;微视
+						</p><hr>
+						<br>微信&nbsp;&nbsp;&nbsp;&nbsp;QQ&nbsp;&nbsp;&nbsp;&nbsp;空间&nbsp;&nbsp;&nbsp;&nbsp;企业微信&nbsp;&nbsp;&nbsp;&nbsp;邮箱&nbsp;&nbsp;&nbsp;&nbsp; 腾讯云&nbsp;&nbsp;&nbsp;&nbsp;电脑管家&nbsp;&nbsp;&nbsp;&nbsp;会员
+						<hr>
+						<br> LOL&nbsp;&nbsp;&nbsp;&nbsp;DNF&nbsp;&nbsp;&nbsp;&nbsp;CF&nbsp;&nbsp;&nbsp;&nbsp;王者&nbsp;&nbsp;&nbsp;&nbsp;单机游戏&nbsp;&nbsp;&nbsp;&nbsp; 火影OL&nbsp;&nbsp;&nbsp;&nbsp;天刀&nbsp;&nbsp;&nbsp;&nbsp;爱玩&nbsp;&nbsp;&nbsp;战
+						<hr>
+						<br> 软件&nbsp;&nbsp;&nbsp;&nbsp;Q币&nbsp;&nbsp;&nbsp;&nbsp;京东&nbsp;&nbsp;&nbsp;&nbsp;腾讯地图&nbsp;&nbsp;&nbsp;&nbsp;腾讯文档&nbsp;&nbsp;&nbsp;&nbsp; 理财通&nbsp;&nbsp;&nbsp;&nbsp;全部
+					<p></p><img src="https://inews.gtimg.com/newsapp_ls/0/10703915375_640330/0" width="450px" height="40px">
+					<img src="https://i04piccdn.sogoucdn.com/ac3bc7573d582b1f" width="450px" />
+				</div>
+
+			</div>
+			<div class="b3">
+				<!--这是第二个盒子-->
+				<div class="e1">
+					<div class="i1">
+						<p style="font-size: 20px;"><u><font color="#6495ED">今日话题</font></u></p>
+						<strong style="font-size: 18px;"><a href="https://new.qq.com/rain/a/20191102A0CII200">基础教育需优秀人才，可名校毕业生能当好老师吗？</a></strong>
+					</div><br>
+					<a href="" style="font-size: 18px;"><strong>半月谈网</strong>| 疯狂“炒鞋”：Z世代的造富“梦工场” </a>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<br>
+					<a href="" style="font-size: 18px;"><strong>新京报评论</strong>| 设老人购物"消费犹豫期"，保健品骗局一击</a>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<br>
+					<a href="" style="font-size: 18px;"><strong>棱镜</strong>| 区块链冰与火：千家上市公司炒概念 技术落地寥寥</a>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<br>
+					<a href="" style="font-size: 18px;"><strong>财看见</strong>| 无息贷款真的假的？这些坑你要警惕！</a>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<br>
+					<a href="" style="font-size: 18px;"><strong>腾讯大家</strong>| 那些年去日本打工的上海人：只认赚钱</a>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<br>
+					<a href="" style="font-size: 18px;"><strong>较真</strong>| 别信！世卫和美法院判决真没证明“转基因有害”</a>
+				</div>
+				<div class="e2"><img src="https://img1.gtimg.com/ninja/2/2019/11/ninja157300699897665.jpg" width="450px" height="25px">
+<img src="https://i01piccdn.sogoucdn.com/9193902197c43375" / width="450px" height="150px">
+					<div class="j1">
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+						<p style="font-size: 18px;">我在未来等你--郴州</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	
+
+</body></html>
