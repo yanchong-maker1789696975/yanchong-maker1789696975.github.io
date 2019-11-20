@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8">
+
+	<head>
+		<title>添加删除</title>
+		<script src='http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js'></script>
+	</head>
+
+	<body>
+		<a href="#" id="AddMoreFileBox" class="btn btn-info">添加输入框</a>
+		</span>
+		</p>
+		<div id="InputsWrapper">
+			<div><input type="text" name="mytext[]" id="field_1" value="Text 1" />
+				<a href="#" class="removeclass"><input type='button' value='删除'></a>
+			</div>
+		</div>
+		<script>
+			$(document).ready(function() {
+
+				var MaxInputs = 20;
+				var InputsWrapper = $("#InputsWrapper");
+				var AddButton = $("#AddMoreFileBox");
+
+				var x = InputsWrapper.length;
+				var FieldCount = 1;
+
+				$(AddButton).click(function(e) {
+					if(x <= MaxInputs) {
+						FieldCount++;
+
+						$(InputsWrapper).append('<div><input type="text" name="mytext[]" id="field_' + FieldCount + '" value="Text ' + FieldCount + '"/><a href="#" class="removeclass"><input type="button" value="删除"></a></div>');
+						x++;
+					}
+					return false;
+				});
+
+				$("body").on("click", ".removeclass", function(e) {
+					if(x > 1) {
+						$(this).parent('div').remove();
+						x--;
+					}
+					return false;
+				})
+
+			});
+		</script>
+	</body>
+
+</html>
