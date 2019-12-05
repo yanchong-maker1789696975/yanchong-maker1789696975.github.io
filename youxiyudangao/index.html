@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>厨房和学生成果展示</title>
+<link href="images.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+	
+@CHARSET "UTF-8";
+body {
+		   background:url(https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2895543527,3769631978&fm=26&gp=0.jpg)  no-repeat center center;
+		   background-size:cover;
+		   background-attachment:fixed;
+}
+h1 {
+    font: bold 35px/60px Helvetica, Arial, Sans-serif;
+    text-align: center; color: cyan;
+    text-shadow: 0px 2px 6px #333;
+}
+#images {
+    width: 400px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+}
+#images img {
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: -400px;
+    z-index: 1;
+    opacity: 1;
+    transition: all linear 500ms;
+    -o-transition: all linear 500ms;
+    -moz-transition: all linear 500ms;
+    -webkit-transition: all linear 500ms;
+}
+#images img:target {
+    left: 0;
+    z-index: 9;
+    opacity: 1;
+}
+#images img:first-child {
+    left: 0;
+}
+#slider {
+    width: 150px;
+    height: 30px;
+    margin: 20px auto;
+}
+#slider a {
+    text-decoration: none;
+    background: #45b97c;
+    border: 1px solid #C6E4F2;
+    padding: 4px 6px;
+    color: #222;
+    margin: 20px auto;
+}
+#slider a:hover {
+    background: #C6E4F2;
+}
+a1 {
+  text-align: center;
+  font-size: 72px;
+  color: #e23b4a;
+}
+</style>
+<body>
+    <h1>我们的游戏厅</h1>
+    <div id="images">
+        <img id="image1" src="img/u=1439944361,357717964&fm=26&gp=0.jpg" />
+        <img id="image2" src="img/u=1808907246,35181286&fm=26&gp=0.jpg" />
+        <img id="image3" src="img/u=3563891704,3429270017&fm=26&gp=0.jpg" />
+            <img id="image4" src="img/u=381794650,3039921288&fm=26&gp=0.jpg" />
+            <img id="image5" src="img/u=4077110688,2971490643&fm=26&gp=0.jpg" />
+    </div>
+    <div id="slider">
+        <a href="#image1">1</a>
+        <a href="#image2">2</a>
+            <a href="#image3">3</a>
+            <a href="#image4">4</a>
+            <a href="#image5">5</a>
+    </div>
+   <a1 align="left" style="font-size:30px; text-align:left">&emsp;&emsp;我们的游戏大厅是不是
+   非常的酷炫呢？是不是已经迫不及待的想来打一把呢？走过路过千万不要错过，这是你从没体验过的蛋糕店加游戏厅
+   的全新版本。Come on！</a1>
+   <h1>我们的蛋糕</h1>
+    <div id="images">
+        <img id="image10" src="img/u=2257157513,722977347&fm=26&gp=0.jpg" />
+        <img id="image6" src="img/u=2468066166,1146026536&fm=72.jpg" />
+        <img id="image7" src="img/u=3124347111,4210628755&fm=26&gp=0.jpg" />
+            <img id="image8" src="img/u=3497837315,3172560369&fm=26&gp=0.jpg" />
+            <img id="image9" src="img/下载 (1).jpg" />
+    </div>
+    <div id="slider">
+        <a href="#image10">6</a>
+        <a href="#image6">7</a>
+            <a href="#image7">8</a>
+            <a href="#image8">9</a>
+            <a href="#image9">10</a>
+    </div>
+    <a1 align="left" style="font-size:30px; text-align:left">&nbsp;&nbsp;&nbsp;
+   	&nbsp;&nbsp;&nbsp;怎么样？看了这些学生作品是不是已经成功引起了你对蛋糕的渴望？
+   	是不是已经口水直流了呢？What are you waiting for?进店试试就能感受到它们的美味辣！
+小伙伴们快来鸭！</a1>
+</body>
+</html>
